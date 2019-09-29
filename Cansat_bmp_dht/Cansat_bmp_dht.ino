@@ -24,7 +24,7 @@ unsigned int dataField4 = 4;                            // Field to write pressu
 
 WiFiClient client;                        // Create client object
 
-#define DHTPIN 12 // D2 or GPIO4
+#define DHTPIN 12 // D6 or GPI12
 #define DHTTYPE DHT11
 DHT dht(DHTPIN,DHTTYPE);
 // MPU6050 Slave Device Address
